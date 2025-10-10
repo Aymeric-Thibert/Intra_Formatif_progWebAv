@@ -35,7 +35,7 @@ export class AppComponent {
 
 
       },
-      { Validators: nomDansComment() }
+      {validators: nomDansComment()}
     );
     this.formGroup.valueChanges.subscribe((v) => (this.formData = v));
   }
